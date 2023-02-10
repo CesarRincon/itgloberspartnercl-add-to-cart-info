@@ -1,0 +1,86 @@
+.container {
+    padding  : 50px;
+    max-width: 600px;
+    min-width: 168px;
+    width    : 100%;
+}
+
+.container__items {
+    display       : flex;
+    flex-direction: column;
+    width         : 100%;
+    max-height    : 500px;
+    overflow-y    : scroll;
+}
+
+.container__item {
+    border-bottom: 1px solid #eeee;
+    margin       : 5px;
+}
+
+.container__item h2 {
+    text-align: center;
+}
+
+.container__image {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.container__image img {
+    width : 150px;
+    height: 150px;
+}
+
+.container__buttonGroup {
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+    height         : 30px;
+}
+
+.container__buttonGroup a {
+    text-align      : center;
+    background-color: black;
+    width           : 30%;
+    padding         : 8px;
+    text-decoration : none;
+    color           : white;
+    cursor          : pointer;
+}
+
+.container__buttonGroup a:hover {
+    background-color: rgb(25, 25, 25);
+}
+
+.container__buttonGroup button {
+    padding    : 5px;
+    border     : 2px solid black;
+    cursor     : pointer;
+    font-weight: 600;
+}
+
+.container__buttonGroup button:hover {
+    background-color: black;
+    color           : white;
+}
+
+@media (max-width: 1025px) {
+
+    .container {
+        height : 215px;
+        padding: 10px;
+    }
+
+    .container__buttonGroup {
+        margin-top    : 25%;
+        flex-direction: column;
+        gap           : 5px;
+    }
+
+    .container__buttonGroup button,
+    .container__buttonGroup a {
+        width: 100%;
+    }
+}
