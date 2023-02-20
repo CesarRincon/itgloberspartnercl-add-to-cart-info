@@ -1,12 +1,16 @@
 📢 Use this project, [contribute](https://github.com/{OrganizationName}/{AppName}) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
 
 # Add-to-cart-info
+# Add-to-cart-info
 
+![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)
 ![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)
 
 
 Component that will display information when adding a product to the shopping cart.
+Component that will display information when adding a product to the shopping cart.
 
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/90701896/220177313-416f3a96-1674-49d3-a091-d4627f54d8a5.png">
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/90701896/220177313-416f3a96-1674-49d3-a091-d4627f54d8a5.png">
 
 ## Configuration 
@@ -39,9 +43,15 @@ Component that will display information when adding a product to the shopping ca
 ## Customization
 
 In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).
+In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).
 
 | CSS Handles  |
+| CSS Handles  |
 | ----------- | 
+|`container`|
+|`container__items`|
+|`container__image`|
+|`container__buttonGroup`|
 |`container`|
 |`container__items`|
 |`container__image`|
